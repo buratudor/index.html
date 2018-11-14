@@ -70,14 +70,16 @@ h2
 	text-align: center;
 	width: 100%;
 	font-size: 5em;
-
+	text-transform: uppercase;
+	color: #FFFFFF;
 }
 .pic1
 {	size: cover;
 	margin: auto;
 	width: 100%;
-	height: 300px;
+	height: 350px;
 	align-content: center;
+	float: left;
 }
 footer
 {
@@ -86,4 +88,21 @@ footer
 	text-align: center;
 	width: 65%;
 	border: #FFFFFF 1px solid;
+}
+#grid-container
+{
+	margin: auto;
+	background-color: #FFFFFF;
+	border: #FFFFFF 1px solid;
+	padding: 20px;
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-gap: 20px;
+	justify-content: center;
+}
+#grid-container > img
+{
+	border: #FFFFFF 1px solid;
+	width:300px;
+	height: 180px;
 }
